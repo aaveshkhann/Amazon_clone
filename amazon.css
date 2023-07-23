@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+  height: 50px;
+  width: 100px;
+}
+.logo{
+   background-image: url("amazon_logo\ \(1\).png") ;
+   height: 50px;
+   width: 100%;
+   background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white; 
+}
+.first_address{
+  color: #C0CCCC;
+  font-size: 12px;
+  margin-left: 17px;
+}
+.add2{
+    margin-left: 3px;
+}
+.second_address{
+   color: #ffff;
+   font-size: 14px;
+   display: flex;
+   margin-left: 3px;
+}
+.nav_search{
+    display: flex;
+    width: 600px;
+    height: 40px;    
+    border: none;
+}
+
+.nav_search_bar{
+    background-color: #F3F3F3 ;
+    width: 50px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    padding-left: 4px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.nav_search{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    color: #ffff;
+    border: none;
+    font-size: 16px;
+}
+.nav_icon{
+    background-color: #F2941B;
+    width: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_icon:hover{
+   background-color: #f48f25;
+}
+.nav_signin{
+    font-size: 14px;
+    color: #ffff;
+}
+#sign1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav_return{
+    font-size: 14px;
+    color: #ffff;
+}
+#order{
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav_cart{
+    display: flex;
+}
+.cart_icon{
+    font-size: 30px;
+}
+.cart1{
+    padding-top: 12px;
+}
+.panel{
+    height: 39px;
+    background-color: #222F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+}
+.nav_panel{
+    font-weight: 500;
+}
+.nav_deals p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav_deals {
+    width: 70%;
+    font-size: 14px;
+}
+.panel_deal{
+    font-weight: 600;
+}
+.main_content{
+    background-image: url("main.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.m_content{
+    height: 40px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  90%;
+    position: relative;
+    top: 80%;
+}
+.m_content p{
+    color: black;
+    font-size: 14px;
+  
+}
+.m_content a{
+    color: #007185;
+    text-decoration: none;
+}
+.shop_section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F3F3F3;
+  flex-wrap: wrap;
+}
+.box{
+    
+    height: 380px;
+    width: 22%;
+    background:white;
+    margin-bottom: 10px;
+    
+}
+.box-content1{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box_img  {
+    background-image: url("box1.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box-style{
+    background-size: cover;
+}
+.box_content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box_content a{
+    color: #007185;
+    position: relative;
+    top: 20px;
+    
+}
+.box_content a:hover{
+    color:#E33E30;
+}
+.background{
+    color: #ffff;
+}
+.footer_panel1{
+    height: 49px;
+    background-color: #37475A;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 10px;
+}
+.footer_panel2{
+    background-color: #232F3E;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_panel2 ul a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.footer_panel2 ul p{
+   font-weight: 600;
+   font-size: 16px;
+   margin-bottom: 15px;
+  
+}
+.footer_panel3{
+    background-color: #0D141E;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_panel3 i{
+    margin-right: 5px;
+}
